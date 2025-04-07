@@ -55,7 +55,7 @@ bunmark [options] <url>
 | `--data <data>`       | `-d`  | HTTP request body (use @filename to read from file)              | undefined |
 | `--query <query>`     | `-q`  | Add query parameter (use multiple times) (e.g., "key=value")     | []        |
 | `--requests <num>`    | `-n`  | Total number of requests to run (conflicts with -t)              | 100       |
-| `--duration <secs>`   | `-t`  | Duration of benchmark in seconds (e.g., 10s) (conflicts with -n) | undefined |
+| `--duration <secs>`   | `-t`  | Duration of benchmark in seconds (e.g., 10s) (conflicts with -n) | 10        |
 | `--concurrency <num>` | `-c`  | Number of concurrent requests                                    | 50        |
 | `--json`              |       | Output results in JSON format                                    | false     |
 | `--help`              | `-h`  | Display help information                                         |           |
