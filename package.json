@@ -1,6 +1,6 @@
 {
   "name": "bunmark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightning-fast API benchmarking CLI, powered by Bun. Measure response times, load test endpoints, and optimize performance with minimal setup.",
   "keywords": [
     "bun",
