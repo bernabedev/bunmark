@@ -1,0 +1,21 @@
+{
+  "name": "bunmark",
+  "version": "0.0.1",
+  "description": "Lightning-fast API benchmarking CLI, powered by Bun. Measure response times, load test endpoints, and optimize performance with minimal setup.",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "bin": {
+    "bunmark": "index.ts"
+  }
+}
