@@ -36,7 +36,7 @@
     "ora": "^8.2.0"
   },
   "bin": {
-    "bunmark": "index.ts"
+    "bunmark": "./dist/index.js"
   },
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target=bun && bun run build:declaration",
