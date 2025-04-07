@@ -1,0 +1,15 @@
+# TypeScript cache
+tsconfig.tsbuildinfo
+tsconfig.types.tsbuildinfo
+
+# Source code
+./src/index.ts
+tsconfig.json
+bun.lock
+
+# Git
+.git/
+.gitignore
+
+# Dependencies
+node_modules
