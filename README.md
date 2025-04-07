@@ -23,7 +23,7 @@ Designed for quick and easy performance testing of your HTTP endpoints directly 
 ### Globally (Recommended once published):
 
 ```bash
-bun install -g bunmark
+bun add -g bunmark
 ```
 
 ### From Source (for development):
