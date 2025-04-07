@@ -107,4 +107,4 @@ Benchmark Results:
 
 ## License
 
-MIT
+[MIT](LICENSE.md)
