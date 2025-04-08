@@ -4,6 +4,7 @@ import { Command } from "commander";
 import { existsSync } from "fs"; // Use fs.existsSync for sync check
 import ora from "ora";
 import { performance } from "perf_hooks";
+import pkg from "../package.json";
 
 // --- Interfaces ---
 
@@ -49,7 +50,7 @@ const program = new Command();
 program
   .name("bunmark")
   .description("A minimalist API benchmarking tool using Bun.")
-  .version("0.1.1") // Increment version
+  .version(pkg.version)
   .argument("<url>", "URL to benchmark")
   .option("-X, --method <method>", "HTTP method", "GET")
   .option(
